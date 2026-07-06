@@ -1,0 +1,190 @@
+/* =======================================
+   GENERAL
+======================================= */
+
+html,
+body,
+[data-testid="stAppViewContainer"] {
+
+    background: #f5f7fb;
+
+    font-family: "Segoe UI", sans-serif;
+}
+
+
+/* =======================================
+   MAIN CONTAINER
+======================================= */
+
+.block-container{
+
+    padding-top:2rem;
+
+    padding-bottom:2rem;
+
+    padding-left:3rem;
+
+    padding-right:3rem;
+
+}
+
+
+/* =======================================
+   SIDEBAR
+======================================= */
+
+[data-testid="stSidebar"]{
+
+    background:#1f2937;
+
+}
+
+[data-testid="stSidebar"] *{
+
+    color:white;
+
+}
+
+
+/* =======================================
+   KPI CARDS
+======================================= */
+
+div[data-testid="metric-container"]{
+
+    background:white;
+
+    border-radius:15px;
+
+    padding:20px;
+
+    box-shadow:0 4px 10px rgba(0,0,0,.08);
+
+    border-left:5px solid #3b82f6;
+
+}
+
+
+/* =======================================
+   BUTTONS
+======================================= */
+
+.stButton>button{
+
+    width:100%;
+
+    background:#2563eb;
+
+    color:white;
+
+    border-radius:12px;
+
+    border:none;
+
+    padding:12px;
+
+    font-weight:bold;
+
+}
+
+.stButton>button:hover{
+
+    background:#1d4ed8;
+
+}
+
+
+/* =======================================
+   DOWNLOAD BUTTON
+======================================= */
+
+.stDownloadButton>button{
+
+    width:100%;
+
+    background:#059669;
+
+    color:white;
+
+    border-radius:12px;
+
+}
+
+
+/* =======================================
+   EXPANDER
+======================================= */
+
+.streamlit-expanderHeader{
+
+    font-size:18px;
+
+    font-weight:bold;
+
+}
+
+
+/* =======================================
+   TABLE
+======================================= */
+
+[data-testid="stDataFrame"]{
+
+    border-radius:15px;
+
+}
+
+
+/* =======================================
+   SUCCESS BOX
+======================================= */
+
+.stAlert{
+
+    border-radius:12px;
+
+}
+
+
+/* =======================================
+   TEXT INPUT
+======================================= */
+
+.stTextInput>div>div>input{
+
+    border-radius:10px;
+
+}
+
+
+/* =======================================
+   TEXT AREA
+======================================= */
+
+textarea{
+
+    border-radius:10px;
+
+}
+
+
+/* =======================================
+   SELECT BOX
+======================================= */
+
+div[data-baseweb="select"]{
+
+    border-radius:10px;
+
+}
+
+
+/* =======================================
+   FOOTER
+======================================= */
+
+footer{
+
+    visibility:hidden;
+
+}
